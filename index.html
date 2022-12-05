@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Microbe&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel&family=Rubik+Microbe&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@1,500&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Disney Search</title>
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <header>
+      <img src="Walt-Disney-logo.png" alt="" />
+      <h1>
+        <span id="dis">Disney</span>
+        <!-- <span id="starUp">&#10024;</span> -->
+        <span id="cS">Character Search</span>
+      </h1>
+    </header>
+    <form id="searchForm">
+      <input type="text" placeholder="enter character's name" name="query" />
+      <button>search</button>
+    </form>
+    <div id="info"></div>
+    <script src="app.js"></script>
+  </body>
+</html>

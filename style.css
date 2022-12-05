@@ -1,0 +1,119 @@
+body {
+  min-height: 100vh;
+  background-color: #c6d9db;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("underthesea.jpg");
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: cover;
+  /* backdrop-filter: blur(1px); */
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+  width: 345px;
+  height: 98px;
+  border-radius: 80px;
+  margin-bottom: 20px;
+  border: 5px ridge #b0c4de;
+  background-image: url("https://www.transparenttextures.com/patterns/arches.png");
+}
+
+h1 {
+  color: #8ab9f1;
+  width: 215px;
+  text-align: left;
+  height: 50px;
+  margin-block: 0;
+  /* margin-left: 25px; */
+}
+
+header img {
+  display: inline;
+  max-height: 100px;
+  width: 75px;
+  height: 100px;
+  object-fit: contain;
+  padding: 5px 5px 10px 30px;
+}
+
+#starUp {
+  font-size: 30px;
+  vertical-align: top;
+  color: #f0e130;
+}
+
+/* #starDown {
+  font-size: 16px;
+  vertical-align: bottom;
+  color: #f0e130;
+} */
+
+#dis {
+  font-family: "Rubik Microbe", cursive;
+  font-size: 60px;
+  color: #6699cc;
+}
+
+#cS {
+  font-family: "Cinzel", serif;
+  display: block;
+  font-size: 20px;
+  margin-left: 10px;
+  width: 200px;
+  color: #6699cc;
+
+  /* color: #6082b6; */
+}
+
+#info img {
+  /* border: 5px solid whitesmoke; */
+  border-radius: 10px;
+  max-height: 200px;
+  object-fit: contain;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#info {
+  margin: 20px 5px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+#info span {
+  /* background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png"); */
+  min-height: 290px;
+  margin: 10px 5px;
+  background-color: rgb(231, 254, 255, 0.5);
+  /* background-color: #c3cebd; */
+  /* border: 5px ridge #eae1d6; */
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h4,
+p {
+  margin-block-start: 0px;
+  font-family: "Special Elite", cursive;
+  color: white;
+}
+p {
+  font-style: italic;
+  font-family: "Josefin Slab", serif;
+  color: white;
+}
+
+/* #6a7c5f */
+/* #c3cebd */
